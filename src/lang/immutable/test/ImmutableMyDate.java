@@ -12,8 +12,6 @@ public class ImmutableMyDate {
         this.day = day;
     }
 
-    // 새로운 객체 반환
-
     /*
     불변 객체에서 값을 변경하는 경우:
     기존 값을 유지한 상태로, 어떤 값을 넣어서 새로 반환할 때는 앞에 with 라는 표현을 많이 사용함
